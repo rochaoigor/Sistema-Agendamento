@@ -1,0 +1,782 @@
+/* .agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #eafaf1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #0f7361;
+}
+
+.agendamento-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+select, .calendar-container, .data-hora button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calendar-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0f7361;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d5a4a;
+}
+
+button.salvar {
+  background-color: #0f7361;
+}
+
+button.reagendar {
+  background-color: #025959;
+}  */
+
+/* .agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1f7e7;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #036c6e;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #036c6e;
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #036c6e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #036c6e;
+  background-color: #f4f7f6;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #02896f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #036c6e;
+}
+
+.react-calendar {
+  width: 100%;
+  background-color: #f4f7f6;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .agendamento-container {
+      max-width: 100%;
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      margin: 10px 0;
+  }
+} */
+
+/* .agendamento-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #E8F5E9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #00796B;
+}
+
+p {
+  color: #004D40;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #00796B;
+}
+
+.calendar-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-icon img {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+input[type="date"], input[type="time"], select {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #BDBDBD;
+  text-align: center;
+}
+
+button {
+  background-color: #00796B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #004D40;
+} */
+
+/* .agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1f7e7;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.agendamento-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.menu-icon, .logout-icon {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #036c6e;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #036c6e;
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #036c6e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #036c6e;
+  background-color: #f4f7f6;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #02896f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #036c6e;
+}
+
+.react-calendar {
+  width: 100%;
+  background-color: #f4f7f6;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .agendamento-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+} */
+
+/* .agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #eafaf1;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #0f7361;
+}
+
+.agendamento-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+select, .calendar-container, .data-hora button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.calendar-container {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #0f7361;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0d5a4a;
+}
+
+button.salvar {
+  background-color: #0f7361;
+}
+
+button.reagendar {
+  background-color: #025959;
+}  */
+
+/* .agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1f7e7;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  color: #036c6e;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #036c6e;
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #036c6e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #036c6e;
+  background-color: #f4f7f6;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #02896f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #036c6e;
+}
+
+.react-calendar {
+  width: 100%;
+  background-color: #f4f7f6;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .agendamento-container {
+      max-width: 100%;
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      margin: 10px 0;
+  }
+} */
+
+/* .agendamento-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #E8F5E9;
+  border-radius: 8px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #00796B;
+}
+
+p {
+  color: #004D40;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+  color: #00796B;
+}
+
+.calendar-icon {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar-icon img {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+input[type="date"], input[type="time"], select {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #BDBDBD;
+  text-align: center;
+}
+
+button {
+  background-color: #00796B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #004D40;
+} */
+
+/*body{
+  background: linear-gradient(180deg, #B0EACD 0%, #FFFFFF 100%);
+}
+
+.agendamento-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+.agendamento-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.menu-icon, .logout-icon {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #036c6e;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 18px;
+  color: #036c6e;
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #036c6e;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  color: #036c6e;
+  background-color: #f4f7f6;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: none;
+  background-color: #02896f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #036c6e;
+}
+
+.buttons {
+  display:flex;
+  justify-content:space-around;
+}
+.react-calendar {
+  width: 100%;
+  background-color: #f4f7f6;
+  border: none;
+  font-family: 'Arial', sans-serif;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .agendamento-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+*/
+
+/* Corpo da página */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #B0EACD 0%, #FFFFFF 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.agendamento-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.menu-icon, .logout-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #036C6E;
+  cursor: pointer;
+}
+
+.logo {
+  height: 50px;
+}
+
+h2 {
+  color: #036C6E;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+ .calendario{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  color: #036C6E;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #036C6E;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 45%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #02896f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #036C6E;
+}
+
+.react-calendar {
+  width: 100%;
+  background-color: #036c6e7b;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}

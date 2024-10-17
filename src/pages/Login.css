@@ -1,0 +1,173 @@
+/* Login.css
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #B0EACD, #FFFFFF);
+}
+
+.login-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 300px;
+}
+
+.forgot-password {
+  text-align: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  font-family: 'Roboto', sans-serif;
+  color: #2C8ED6;
+  font-size: 14px;
+}
+
+.login-btn, .jacad-btn {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  background-color: #1F6F5C;
+  color: white;
+}
+
+.jacad-btn {
+  background-color: #007BFF;
+  color: white;
+} */
+
+/* Login.css */
+
+/* Login.css */
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(180deg, #B0EACD, #FFFFFF);
+}
+  .form-login {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width:300px;
+ }
+.login-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 275px;
+}
+
+.forgot-password {
+  text-align: left;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.forgot-password a {
+  font-family: 'Roboto', sans-serif;
+  color: #2C8ED6;
+  font-size: 14px;
+}
+
+.forgot-password a:hover {
+  font-weight:bold;
+  
+}
+
+.login-btn, .jacad-btn {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-btn {
+  background-color: #1F6F5C;
+  color: white;
+}
+
+.login-btn:hover {
+ opacity:0.2;
+}
+
+.jacad-btn {
+  background-color: #007BFF;
+  color: white;
+}
+
+
+.jacad-btn:hover {
+  opacity:0.2;
+}

@@ -1,0 +1,83 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #B0EACD 0%, #FFFFFF 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.logout-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logout-header {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centraliza o logo */
+  padding: 10px 20px;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #036C6E;
+  cursor: pointer;
+  position: absolute; /* Posiciona o menu */
+  left: 20px; /* Afasta da esquerda */
+  top: 10px; 
+}
+
+.logo {
+  height: 125px;
+}
+
+.logout-content {
+  line-height:2rem;
+  text-align: center;
+  margin-top: 12px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #036C6E;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px; /* Espaçamento entre os botões */
+}
+.btn-sim:hover, .btn-nao:hover {
+  opacity:0.3;
+}
+
+button {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-sim {
+  background-color: #02896f;
+}
+
+.btn-nao {
+  background-color: #e74c3c;
+}
+

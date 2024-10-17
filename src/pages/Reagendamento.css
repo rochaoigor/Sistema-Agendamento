@@ -1,0 +1,124 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, #B0EACD 0%, #FFFFFF 100%);
+  font-family: 'Arial', sans-serif;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.agendamento-header {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+  justify-content: center; 
+  padding: 10px 20px;
+  position: relative;
+}
+
+.menu-icon, .logout-icon{
+  display:flex;
+  flex-direction: row;
+  color: #036C6E;
+  cursor: pointer;
+}
+
+
+.menu-icon {
+  left: 20px;
+}
+
+.logout-icon {
+  right: 20px;
+}
+
+.logo {
+  height: 50px;
+}
+
+h2 {
+  color: #036C6E;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.calendario {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+label {
+  color: #036C6E;
+  font-size: 18px;
+  margin-top: 10px;
+  display: block;
+  font-weight: bold;
+}
+
+select, input[type="time"] {
+  width: 95%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid #036C6E;
+  border-radius: 5px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #02896f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #036C6E;
+}
+
+.react-calendar {
+  width: 100%;
+  background-color: #036c6e7b;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.react-calendar__tile--active {
+  background-color: #02896f !important;
+  color: white;
+}
+
+.react-calendar__tile {
+  padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+      padding: 15px;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
